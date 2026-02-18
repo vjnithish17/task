@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Lavishly+Yours&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    /* border: 5px solid blueviolet; */
+    margin: 80px 200px;
+    border-radius: 100px;
+    background-image: linear-gradient(gray);
+    box-shadow: inset 0px 2px 15px 0px;
+
+}
+
+.inner-box {
+    /* bodrer: 5px solid blueviolet; */
+    width: 50%;
+    border-radius: inherit;
+    padding: 5px 10px;
+    text-align: end;
+    background: repeating-linear-gradient(to top left, red, yellow, green);
+    transition: 4s;
+    box-shadow: 2px 0px 0px 1px;
+}
+
+.inner-box:hover {
+    background: repeating-linear-gradient(to top left, rgb(97, 250, 253), yellow, rgb(232, 10, 10));
+    width: 75%;
+
+}
+
+.box {
+    /* border: 2px solid  red; */
+    margin: 80px 500px 80px 200px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(178, 223, 223));
+    box-shadow: inset 0px 2px 15px 0px;
+
+
+}
+
+.box1 {
+    /* border: 2px solid blue; */
+    border-radius: inherit;
+    padding: 10px;
+    width: 89%;
+    background-image: repeating-conic-gradient(rgb(178, 150, 102) 10% 20%, red 30% 58%, rgb(0, 179, 255) 60% 75%, rgb(21, 255, 0) 79% 100%);
+    transition: 3s;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1:hover {
+
+    background: repeating-linear-gradient(to bottom left, rgb(97, 250, 253), yellow, rgb(232, 10, 10));
+    width: 39%;
+    font-family: "Lavishly Yours", cursive;
+    font-size: 30px;
+    font-weight: 700;
+}
+h1{
+    margin: 20px ;
+    text-align:center;
+    background-image: linear-gradient(rgb(24, 233, 252),rgb(67, 37, 240),rgb(97, 96, 94));
+    color: transparent;
+    background-clip: text;
+    font-size: 50px;
+     font-family: "Carattere", cursive;
+     text-decoration:underline rgb(59, 155, 69);
+     text-shadow: 8px -1px 9px gray;
+}
