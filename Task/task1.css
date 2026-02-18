@@ -7,10 +7,11 @@
 
 .outer {
     /* border: 5px solid blueviolet; */
-    margin: 80px 200px;
+    margin: 90px 200px;
     border-radius: 100px;
-    background-image: linear-gradient(gray);
-    box-shadow: inset 0px 2px 15px 0px;
+    background-image: linear-gradient(gray,blueviolet);
+    box-shadow: inset 0px 2px 15px 0px, 0px 10px 20px rgb(187, 131, 131);
+      box-shadow: 
 
 }
 
@@ -18,7 +19,7 @@
     /* bodrer: 5px solid blueviolet; */
     width: 50%;
     border-radius: inherit;
-    padding: 5px 10px;
+    padding: 9px 10px;
     text-align: end;
     background: repeating-linear-gradient(to top left, red, yellow, green);
     transition: 4s;
@@ -37,8 +38,7 @@
     border-radius: 20px;
     background-image: linear-gradient(rgb(178, 223, 223));
     box-shadow: inset 0px 2px 15px 0px;
-
-
+     box-shadow:10px 10px 20px rgb(221, 15, 211) ; 
 }
 
 .box1 {
@@ -50,6 +50,7 @@
     transition: 3s;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow:10px 10px 20px rgb(187, 131, 131) ; 
 }
 
 .box1:hover {
@@ -60,14 +61,40 @@
     font-size: 30px;
     font-weight: 700;
 }
-h1{
-    margin: 20px ;
-    text-align:center;
-    background-image: linear-gradient(rgb(24, 233, 252),rgb(67, 37, 240),rgb(97, 96, 94));
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    background-image: linear-gradient(rgb(24, 233, 252), rgb(67, 37, 240), rgb(97, 96, 94));
     color: transparent;
     background-clip: text;
     font-size: 50px;
-     font-family: "Carattere", cursive;
-     text-decoration:underline rgb(59, 155, 69);
-     text-shadow: 8px -1px 9px gray;
+    font-family: "Carattere", cursive;
+    text-decoration: underline rgb(59, 155, 69);
+    text-shadow: 8px -1px 9px gray;
+}
+
+.liner {
+    margin: 40px 200px;
+    /* border: 2px solid black; */
+    border-radius: 100px;
+    background-image: linear-gradient(gray,rgb(70, 156, 217));
+    box-shadow:0px 10px 20px rgb(239, 58, 151) ;
+}
+
+.liner1 {
+    /* border: 2px solid black; */
+    padding: 20px;
+    border-radius: 100px;
+    width: 90%;
+    background-image: repeating-linear-gradient(to top left, yellow 0px 10px, green 10% 20px);
+    transition: 1s;
+    text-align: right;
+    text: decoration thickness 90px;;
+
+}
+
+.liner1:hover {
+    width: 50%;
+    
 }
