@@ -4,17 +4,14 @@
     margin: 0;
     padding: 0;
 }
-
 .outer {
     /* border: 5px solid blueviolet; */
     margin: 90px 200px;
     border-radius: 100px;
     background-image: linear-gradient(gray,blueviolet);
-    box-shadow: inset 0px 2px 15px 0px, 0px 10px 20px rgb(187, 131, 131);
-      box-shadow: 
+    box-shadow: inset 0px 2px 15px 0px, 0px 10px 20px rgb(187, 131, 131); 
 
 }
-
 .inner-box {
     /* bodrer: 5px solid blueviolet; */
     width: 50%;
